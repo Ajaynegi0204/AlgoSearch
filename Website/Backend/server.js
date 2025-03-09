@@ -42,6 +42,6 @@ app.get("/", (req, res) => {
   res.send("Server is running successfully");
 });
 
-app.listen(5000 || process.env.PORT, () => {
+app.listen(5000 , () => {
   console.log("Backend server is running on http://localhost:5000");
 });
